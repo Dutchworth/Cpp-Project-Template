@@ -54,9 +54,6 @@ FOREACH(CONFIGINPUT ${CONFIGINPUTS})
     CONFIGURE_FILE("${CONFIGINPUT}" "${CONFIGOUTPUT1}")
 ENDFOREACH(CONFIGINPUT ${CONFIGINPUTS})
 
-# Add C++11 compiler flags.
-add_definitions(-std=c++11)
-
 ## Add Build Targets
 ADD_SUBDIRECTORY(src)
 ADD_SUBDIRECTORY(thirdparty)
