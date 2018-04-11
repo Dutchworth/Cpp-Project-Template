@@ -1,6 +1,6 @@
 # Cpp-Project-Template
 
-[![Build Status](https://travis-ci.org/NewProggie/Cpp-Project-Template.svg?branch=master)](https://travis-ci.org/NewProggie/Cpp-Project-Template)
+[![Build Status](https://travis-ci.org/Dutchworth/Cpp-Project-Template.svg?branch=master)](https://travis-ci.org/Dutchworth/Cpp-Project-Template)
 
 Creating a (large scaling) C++ project from scratch can be cumbersome. The purpose of this project is to provide a bootstrap project layout which makes this task more easy. This includes:
 
@@ -30,5 +30,6 @@ configure script together with a Makefile so that the typical build invocation
 of `./configure` followed by `make` will work.
 
 ## Acknowledgments
+ * Forked from [NewProggie/Cpp-Project-Template](https://github.com/NewProggie/Cpp-Project-Template)
  * Some parts of this bootstrap project template are inspired by https://code.google.com/p/cpp-project- template/.
  * Adjusted CodeCoverage to ignore thirdparty directory
