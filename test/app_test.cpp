@@ -36,8 +36,3 @@ TEST_F(AppTest, GetProjectDetails) {
     ASSERT_STREQ(app->getProjectVersion().c_str(), APPLICATION_VERSION_STRING);
     ASSERT_STREQ(app->getProjectCopyrightYears().c_str(), APPLICATION_COPYRIGHT_YEARS);
 }
-
-TEST_F(AppTest, testCpp11ability) {
-    int x = 1;
-    auto y = x;
-}
