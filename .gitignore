@@ -10,6 +10,9 @@ docs/
 # OS X trash
 .DS_Store
 
+# vscode files
+.vscode
+
 # Compiled Object files
 *.slo
 *.lo
